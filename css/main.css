@@ -1,0 +1,72 @@
+h1, h2, h3 {
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+* {
+	font-family: "Crimson-Text";
+	font-size: 18px;
+}
+
+#beginning, #year1, #year2, #year3, #year4, #year5 {
+  height: 800px; /*I wish I was a little bit taller..*/ 
+  padding-top: 50px;
+  text-align: center;
+}
+
+#test {
+	margin: 0 auto;
+	width: 90%;
+	text-align: left;
+}
+
+#test h2, h3 {
+	text-align: center;
+}
+
+audio {
+  display: none;
+}
+
+.carousel {
+	height: 300px;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+}
+
+.carousel .item {
+	height: 300px;
+}
+
+.carousel .item img {
+	height: 300px;
+	border-radius: 25px;
+	width: 300px; /*Like yo momma*/
+	margin: 0 auto;
+}
+
+ul {
+	line-height: 25px;
+}
+
+/*#year5 p {
+	padding: 50px;
+}*/
+
+.carousel {
+	background: #fff;
+}
+
+@media (orientation: portrait) {
+	#test {
+		width: 90%;
+	}
+}
+
+@media (orientation: landscape) {
+	#test {
+		width: 600px;
+	}
+}
